@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400;500;800&family=Roboto:ital,wght@0,300;0,400;1,500&family=Rubik+Iso&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins' ;
+}
+body{
+
+    text-align: center;
+}
+body h1{
+font-size: 10rem;
+color: rgb(179,131,226);
+opacity: 0.4;
+margin: auto;
+}
+.form{
+    max-width: 100%;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.form input{
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    color: #224;
+display: block;
+width: 100%;
+cursor: pointer;
+}
+.todolist{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.todolist >li{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #b5b5b5;
+    border: 3px solid #eee;
+}
+.todolist>li:hover{
+    cursor: pointer;
+}
+small{
+    margin-top: 0.3rem;
+    color:#d5d5d5;
+}
+.todolist>li.completed{
+    text-decoration: line-through;
+    background-color: #eee;
+}
+.todolidt >input::placeholder{
+    color: #d5d5d5;
+}
