@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400;500;800&family=Roboto:ital,wght@0,300;0,400;1,500&family=Rubik+Iso&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins' ;
+}
+nav{
+  position:fixed;
+  top:0;
+  left: 0px;
+z-index: 9999;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+nav span{
+  float: left;
+color:white;
+padding-left :.4em;
+line-height:3;
+font-weight: 540;
+cursor: pointer;
+}
+nav ul{
+padding: 0px 1em;
+min-height: 50px;
+list-style-type: none;
+  list-style-position: inside;
+}
+nav ul li{
+  display: inline;
+float:right;
+margin-left:5px;
+line-height: 3;
+transition: .3s;
+padding: .3em;
+cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font: italic caption 600 30px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  scroll-behavior: smooth;
+}
+nav ul li:hover{
+  background-color: cyan;
+  color: orangered;
+text-decoration: underline;
+line-clamp:2px;
+height: 100%;
+
+}
+body{
+ padding: 1em;
+ height: 100vh;
+ background-color:cyan;
+}
+.container{
+  position: relative;
+  top: 20px;
+  text-align: center;
+    display: flex;
+  
+    flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+padding: 2em;
+gap: 1em;
+font-size: .7em;
+width: 100%;
+
+}
+  .container>*{
+    flex: 1em 1em auto;
+    padding: 1em;
+    width: 100vh;
+    height: 100vh;
+    padding-top: 20vh;
+  }
+  .entertainment{
+background-color: rgba(122,221,113,0.5);
+  }
+  .education{
+    background-color: rgba(100,63,77,0.5);
+  }
+  .knowledge{
+    background-color: rgba(44,55,66,0.5);
+  }
+.blog{
+  background-color:#233223;
+  color: white;
+}
+.games{
+  background-color: rgba(23,43,53,0.5);
+}
+.container>*>ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+list-style-type: none;
+gap: 1em;
+}
+.container>*>ul>li>a{
+  text-decoration: none;
+  color:darkmagenta;
+  font-size: 1.3em;
+  font-weight:530;
+  letter-spacing: .3px;
+  cursor: pointer;
+  padding: .2em;
+  margin: .2em;
+  transition: .3s;
+  text-transform: capitalize;
+  
+}
+.container>*>ul>li>a:hover{
+border: 1px solid darkmagenta;
+background-color: aqua;
+border-radius: 5em;
+color: green;
+text-transform: capitalize;
+}
+.container>*>ul>li>a:active{
+color: red;
+}
+table img{
+width: 250px;
+height:250px;
+object-fit: cover;
+border-radius: 50%;
+border: 1x solid white;
+transition: transform .5s;
+}
+table img:hover{
+  transform: scale(150%,150%);
+}
+#contact table{
+  padding: 1em;
+  margin-left:2em
+}
+.innertable{
+  background-color: black;
+  color:white;
+  border-radius: 5px;
+  width: 60%;
+  border:1px solid white;
+  font-size: 2em;
+  font-weight:400;
+}
+.innertable .innerheader{
+  color: green;
+  font-size: 2em;
+  font-weight: 600;
+}
+.innertable tr{
+  margin: 2em;
+}
+#contact{
+  background-color: black;
+}
+#contact .innertable{
+  width: 300px;
+  font-size: 20px;
+  color: white;
+
+}
