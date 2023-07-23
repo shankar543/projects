@@ -98,7 +98,7 @@ function addReplicationsOfImage(item,gridpositions){
       imagecontainer.style.order = gridpositions[i];
       imagecontainer.classList.add('image-container')
       imagecontainer.innerHTML=`
-        <img src="../assets/images/pexels-pixabay-268533.jpg" alt="Dummy Image" class="dummy-image">
+        <img src="./images/img_7.jpg" alt="Dummy Image" class="dummy-image">
         <img src="${item.url}" id="${item.anime_name+"_"+temp}" alt="${item.anime_name}" class="main-image">
       `;
       container.append(imagecontainer)
